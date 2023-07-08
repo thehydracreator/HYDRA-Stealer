@@ -2,7 +2,7 @@ HYDRA 1.55 FUD C# Stealer
 
 Stealer does NOT perform any operations with disk except for reading, all log processing takes place in RAM and the log is sent to Telegram from it, after that the log data is deleted.
 All API calls are hidden as far as possible.
-All data (token, chat id, vorker/tima name) are encrypted in build. The only operation for communication with the outside world is sending logs.
+All data (token, chat id, worker/team name) are encrypted in build. The only operation for communication with the outside world is sending logs.
 There is a "tasker" - executing download and launch of any executable file (keylogger, clipper, backdoor, etc.).
 Completely standalone, fast (7-9 MB log from stealer startup to tapping - 3-4 seconds), written without using any third-party packages / libraries, the target PC requires .NET Framework 4 (version 4.5 comes "out of the box" with Windows 8.1), works even on clean systems.
 
