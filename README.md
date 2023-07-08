@@ -1,4 +1,4 @@
-HYDRA 1.55 FUD Stealer
+HYDRA 1.55 FUD C# Stealer
 
 Stealer does NOT perform any operations with disk except for reading, all log processing takes place in RAM and the log is sent to Telegram from it, after that the log data is deleted.
 All API calls are hidden as far as possible.
